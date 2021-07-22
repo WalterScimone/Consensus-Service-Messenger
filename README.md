@@ -31,3 +31,5 @@ To test the current functionality follow those steps:</br>
 <p>Consensus Messaging allows people to have the highest level of privacy while keeping immutable records, all distributed in a Decentralized Public Ledger.<p>
 
 <p>&nbsp</p>
+
+<h4> **Under development...**</h4>
