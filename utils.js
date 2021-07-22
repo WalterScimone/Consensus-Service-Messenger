@@ -1,5 +1,5 @@
 // inquirer...
-var questions = [
+var question = [
     {
       type: "list",
       name: "status",
@@ -62,7 +62,7 @@ var questions = [
     } else if (status === "minimal") {
       console.log(event);
     } else {
-      // debug mode. destructure mirror receipts or print a usual log
+      // debug mode to destructure mirror receipts or print a usual log...
       if (log.toString() !== log && log["runningHash"] !== undefined) {
         console.log(event);
         console.log("\t message: " + log.toString());
@@ -77,7 +77,7 @@ var questions = [
   }
   
   module.exports = {
-    questions,
+    question,
     UInt8ToString,
     secondsToDate,
     sleep,
