@@ -28,8 +28,8 @@ $(function() {
       var clientId = splitMsg[1].slice(0,6) + "..";
       var msg = splitMsg[2];
       var sequenceNumber = splitMsg[3];
-      var trimmedHash = "runningHash: "+splitMsg[4].slice(0,6) + "..";
-      var trimmedTimestamp = splitMsg[5].slice(0,25);
+      var trimmedHash = "runningHash: "+ splitMsg[4] + "..";
+      var trimmedTimestamp = splitMsg[5];
     
       // grab & trim our topic ID
       var topicId = document.getElementById("topic-id");
