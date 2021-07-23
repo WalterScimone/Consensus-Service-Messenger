@@ -3,6 +3,9 @@
 
 <p>A Messenger application built to leverage the speed, performance and security of the Hedera Consensus Service (HCS)</p>
 
+<h2>         Web Page Image</h2>
+            <img src="/HCS-messenger.png" alt="web image screenshot" />
+
 
 <h2>Table of Contents<h2>
   
