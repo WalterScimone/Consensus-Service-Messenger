@@ -1,9 +1,9 @@
 <h1 id="title">HCS messenger</h1>
 
 
-<p>A Messenger application built to leverage the speed, performance and security of the Hedera Consensus Service (HCS)</p>
+<p>An Open-Source Messenger application built to leverage the speed, performance and security of the Hedera Consensus Service (HCS)</p>
 
-<h2>         Web Page Image</h2>
+<h2>         </h2>
             <img src="/HCS-messenger.png" alt="web image screenshot" />
 
 
