@@ -18,7 +18,7 @@
   }
   
   .side-panel {
-    background: #ffffff;
+    background: #000; 
     box-shadow: 23.8596px 5.61404px 50px rgba(0, 0, 0, 0.02),
       35.0877px 0px 70px rgba(86, 128, 248, 0.05),
       14.0351px 0px 25px rgba(86, 128, 248, 0.03);
@@ -50,11 +50,12 @@
   }
   
   .content {
-    background: #ffffff;
+    background: #000;
     height: 100%;
   }
   
   .side-panel #title {
+    color: white;
     margin: 40px 0;
     font-size: 18px;
     text-align: center;
@@ -62,7 +63,7 @@
   
   .header {
     align-items: center;
-    background: #fafbff;
+    background: #000;
     display: flex;
     height: 80px;
     padding: 20px;
@@ -77,6 +78,7 @@
   }
   
   .chat-details {
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -84,7 +86,7 @@
   
   form {
     border-top: 1px solid grey;
-    background: #fff;
+    background: #000;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -94,6 +96,8 @@
   }
   
   form input {
+    background: #000;
+    color: white;
     border: 0;
     outline: none;
     padding: 20px;
@@ -101,6 +105,7 @@
   }
   
   input::placeholder {
+    color: white;
     font-size: 14px;
     font-style: italic;
   }
@@ -117,6 +122,7 @@
   }
   
   #messages {
+    background: #000;
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -163,12 +169,13 @@
   }
   
   .message-body .message-content {
+    background: #1818d7;
     border: 1px solid rgba(112, 124, 151, 0.25);
     border-radius: 24px;
     box-sizing: border-box;
     box-shadow: 15px 15px 35px rgba(112, 124, 151, 0.05),
       10px 10px 25px rgba(112, 124, 151, 0.05);
-    color: #707c97;
+    color: white;
     padding: 10px;
     font-size: 14px;
     min-width: 300px;
@@ -232,7 +239,7 @@
   /* media queries... */
   @media screen and (max-width: 1024px) {
     .chat {
-      background: linear-gradient(180deg, #c5c5d4 0%, #b3b3c4 100%);
+      background: linear-gradient(180deg, #0250 0%, #000 100%);
       flex-direction: column;
       justify-content: start;
     }
@@ -244,6 +251,7 @@
     }
   
     .side-panel {
+      color:darkslategrey;
       height: 100px;
       padding: 2%;
       display: flex;
@@ -262,6 +270,7 @@
     }
   
     #messages {
+     background-color:black;
       height: calc(100% - 80px);
     }
   
