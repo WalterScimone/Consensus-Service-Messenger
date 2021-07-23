@@ -103,7 +103,7 @@ function subscribeToMirror() {
       .setStartTime(0)
       .subscribe(HederaClient, res => {
         log("Response from TopicMessageQuery()", res, logStatus);
-        const message = new TextDecoder("utf-8").decode(res["message"]);
+        const message = Buffer.from(res.contents, "utf8").toString();
         var runningHash = UInt8ToString(res["runningHash"]);
         var timestamp = secondsToDate(res["consensusTimestamp"]);
         io.emit(
